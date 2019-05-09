@@ -11,7 +11,12 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
+<<<<<<< HEAD
   arr.any? { |ele| ele.length > 4 }
+=======
+  arr.any? do |ele|
+    ele.count > 4
+>>>>>>> f408a123d734200d9f7cc32ecf6b1cfd22d47408
 end
 
 def find_the_cheese(arr)
